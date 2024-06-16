@@ -1,0 +1,332 @@
+/* Home Page */
+body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .max-w-screen-lg {
+    max-width: 1024px;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .hover\:bg-white:hover {
+    background-color: white;
+  }
+  
+  .hover\:text-black:hover {
+    color: black;
+  }
+  
+  .transition {
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+  }
+
+  
+  /* About Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.6;
+  }
+  
+  .leading-relaxed {
+    line-height: 1.8;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem; /* 36px */
+  }
+  
+  .text-xl {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+  
+  .md\:pr-8 {
+    padding-right: 2rem; /* 32px */
+  }
+  
+  .md\:mt-0 {
+    margin-top: 0;
+  }
+  
+  .w-64 {
+    width: 16rem; /* 256px */
+  }
+  
+  .h-auto {
+    height: auto;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  
+  /* Poetry Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .poetry {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .poetry h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .poetry p {
+    margin-bottom: 1em;
+  }
+
+  
+  /* Photography Page */
+body {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .space-y-8 {
+    gap: 2rem; /* Adjust as needed */
+  }
+  
+  .md\:space-y-0 {
+    gap: 0; /* Adjust as needed */
+  }
+  
+  .md\:space-x-8 > * + * {
+    margin-left: 2rem; /* Adjust as needed */
+  }
+  
+  .md\:space-x-8 {
+    gap: 2rem; /* Adjust as needed */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .w-64 {
+    width: 16rem; /* Adjust as needed */
+  }
+  
+  .h-auto {
+    height: auto;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .object-contain {
+    object-fit: contain;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+
+  /* Contact Page */
+body {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .md\:items-start {
+    align-items: flex-start;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .md\:space-y-0 {
+    gap: 0; /* Adjust as needed */
+  }
+  
+  .md\:space-x-10 > * + * {
+    margin-left: 2.5rem; /* Adjust as needed */
+  }
+  
+  .md\:space-x-10 {
+    gap: 2.5rem; /* Adjust as needed */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Large value for rounded full */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .w-48 {
+    width: 12rem; /* Adjust as needed */
+  }
+  
+  .h-48 {
+    height: 12rem; /* Adjust as needed */
+  }
+  
+  .w-6 {
+    width: 1.5rem; /* Adjust as needed */
+  }
+  
+  .h-6 {
+    height: 1.5rem; /* Adjust as needed */
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .space-x-3 > * + * {
+    margin-left: 0.75rem; /* Adjust as needed */
+  }
+  
+  .space-y-4 > * + * {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+  
+  .space-y-6 > * + * {
+    margin-top: 1.5rem; /* Adjust as needed */
+  }
+  
